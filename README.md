@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Candidate: A Mobile Assistant and Accountability Tracker for Job Seekers
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Candidate is a comprehensive mobile application designed to streamline the job search
+process by combining organizational tools, accountability features, and personalized
+guidance. The app helps job-seekers maintain momentum, track progress, and optimize their
+approach to finding employment.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Job Search Organization
+- **Interview Tracker**: Log and monitor the status of all active interviews in one place.
+- **Interview Calendar**: Schedule and prepare for upcoming interviews with reminders and prep materials.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Accountability System
+- **Daily Goals**: Set customized daily and weekly job search tasks.
+- **Progress Metrics**: Visualize application success rates and activity patterns.
+- **Streak Tracking**: Maintain motivation through continuous self-improvement.
+- **Accountability Partners**: Share with peers for mutual support and encouragement.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Personalized Guidance
+- **Resume Scanner**: Receive feedback on resume optimization for specific job listings.
+- **Interview Preparation**: Access industry-specific interview questions and guidance.
+- **Networking Tips**: Get personalized suggestions for expanding professional networks.
+- **Skill Development Recommendations**: Identify and address skill gaps based on desired roles.
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**: Next.JS + React
+- **Backend**: Golang
+- **Database**: PostgresDB
+- **Authentication**: TBD
+- **Storage**: TBD
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
+TBD
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+1. **Create an account**: Sign up using email or social media accounts.
+2. **Set up your profile**: Upload your resume and set job preferences.
+3. **Start tracking applications**: Add jobs you've applied to or plan to apply for.
+4. **Set daily goals**: Customize your job search routine.
+5. **Connect with partners**: Invite accountability partners to join your network.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+We welcome contributions to Candidate! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+- Thanks to all beta testers who provided valuable feedback
+- Special thanks to the career counselors who helped shape our guidance features
