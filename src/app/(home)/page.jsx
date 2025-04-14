@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import SiteNav from "@/_components/SiteNav";
 import appIcon from "@/assets/logos/app_icon-color.svg"
 import DocumentIcon from "@/assets/icons/document.svg"
 import UserIcon from "@/assets/icons/user.svg"
@@ -16,8 +15,8 @@ import previewThree from "@/assets/tracker.webp";
 export default function Home() {
   return (
     <>
-        <main className="mx-16">
-          <section id={"hero"} className={"text-center my-56 h-[24vh]"}>
+        <main className="mx-16 flex flex-col gap-12">
+          <section id={"hero"} className={"text-center my-24"}>
               <div className={"flex flex-col justify-center items-center my-4"}>
                   <div className={"flex flex-col justify-start text-center"}>
                       <img className={"h-[6rem] md:h-[12rem] w-auto"} src={appIcon.src} alt={"App Logo"}/>
